@@ -2,8 +2,6 @@
 An OOP program implementing Composite, Observer design patterns in C++ on the 3rd semester of studies.
 
 Compile:
-g++-7 -o christmas_tree decoration.cc helper.cc person.cc ChristmasTree_test.cc 
+g++-7 -DTEST_NUM=<desired_number> decoration.cc helper.cc person.cc ChristmasTree_test.cc -o christmas_tree
 
-Testing:
-./christmas_tree -DTEST_NUM=<number_of_test>
 
